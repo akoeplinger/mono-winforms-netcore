@@ -1,4 +1,0 @@
-﻿enum StreamingContextStates
-{
-    Remoting
-}

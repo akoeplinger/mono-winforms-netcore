@@ -3,13 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.22310.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Drawing", "System.Drawing\System.Drawing.kproj", "{02DFFA06-0CD2-4C1D-A807-39284D120DB0}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Drawing", "src\System.Drawing\System.Drawing.kproj", "{02DFFA06-0CD2-4C1D-A807-39284D120DB0}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Windows.Forms", "System.Windows.Forms\System.Windows.Forms.kproj", "{1A3C8066-7101-47EC-A18B-4A5B45072DA5}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "System.Windows.Forms", "src\System.Windows.Forms\System.Windows.Forms.kproj", "{1A3C8066-7101-47EC-A18B-4A5B45072DA5}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestApp", "TestApp\TestApp.kproj", "{CF598994-1D01-49F2-B968-967A9CBA7A94}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "TestApp", "sample\TestApp\TestApp.kproj", "{CF598994-1D01-49F2-B968-967A9CBA7A94}"
 EndProject
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "Shims", "Shims\Shims.kproj", "{8668329C-318E-4559-B6A6-97FB7CCF2E91}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "CommonShims", "src\CommonShims\CommonShims.kproj", "{8668329C-318E-4559-B6A6-97FB7CCF2E91}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
