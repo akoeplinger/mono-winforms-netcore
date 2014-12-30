@@ -3,6 +3,7 @@
     "commands": {
         "run": "run"
     },
+    "code": "../TestApp/*.cs",
     "frameworks": {
         "aspnetcore50": {
             "dependencies": {
