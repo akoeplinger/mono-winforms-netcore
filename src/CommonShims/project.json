@@ -3,7 +3,11 @@
 	"code": [
 		"**/*.cs",
 
-		"../../external/mono/mcs/class/corlib/System.Runtime.InteropServices/HandleRef.cs",
+        "../../external/mono/mcs/build/common/SR.cs",
+        "../../external/mono/mcs/class/System/ReferenceSources/SR.cs",
+        "../../external/mono/mcs/class/corlib/System.Runtime.InteropServices/HandleRef.cs",
+
+        "../../external/mono/external/referencesource/System/compmod/system/componentmodel/MaskedTextResultHint.cs"
 	],
     "frameworks": {
         "aspnetcore50": {
@@ -20,6 +24,7 @@
                 "System.Collections.NonGeneric": "4.0.0-beta-22231",
                 "System.Text.RegularExpressions": "4.0.10-beta-22231",
                 "System.Collections.Specialized": "4.0.0-beta-22231",
+                "System.Collections": "4.0.10-beta-22231",
                 "System.IO.FileSystem": "4.0.0-beta-22231",
                 "System.Threading": "4.0.0-beta-22231",
                 "System.Threading.Thread": "4.0.0-beta-22231",
@@ -27,7 +32,9 @@
                 "System.Reflection.TypeExtensions": "4.0.0-beta-22231",
                 "Microsoft.Win32.Primitives": "4.0.0-beta-22231",
                 "System.Console": "4.0.0-beta-22231",
-                "System.Xml.ReaderWriter": "4.0.10-beta-22231"
+                "System.Xml.ReaderWriter": "4.0.10-beta-22231",
+                "System.Diagnostics.Debug": "4.0.10-beta-22231",
+                "System.Diagnostics.Tools": "4.0.0-beta-22231"
             }
         }
     }
