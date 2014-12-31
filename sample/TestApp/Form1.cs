@@ -21,5 +21,29 @@ namespace TestApp2
         {
             MessageBox.Show("Hello from WinForms!", "Caption", MessageBoxButtons.OK, MessageBoxIcon.Information);
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void browseToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            folderBrowserDialog1.ShowDialog();
+        }
+
+        private void printToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            printDialog1.ShowDialog();
+        }
+
+        private void openFileToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            openFileDialog1.ShowDialog();
+        }
     }
 }
