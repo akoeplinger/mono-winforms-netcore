@@ -1,7 +1,6 @@
 ﻿using System.IO;
-using System.Xml;
 
-namespace System.Windows.Forms
+namespace System.Xml
 {
     public class XmlTextReader
     {

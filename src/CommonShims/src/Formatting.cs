@@ -1,4 +1,4 @@
-﻿namespace System.Windows.Forms
+﻿namespace System.Xml
 {
     public enum Formatting
     {

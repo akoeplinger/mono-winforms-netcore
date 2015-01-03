@@ -1,6 +1,6 @@
 ﻿using System.IO;
 
-namespace System.Windows.Forms
+namespace System.Xml
 {
     public class XmlTextWriter
     {
