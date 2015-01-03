@@ -1,14 +1,14 @@
 ﻿{
     "version": "1.0.0-*",
-	"code": [
-		"**/*.cs",
+    "code": [
+        "**/*.cs",
 
         "../../external/mono/mcs/build/common/SR.cs",
         "../../external/mono/mcs/class/System/ReferenceSources/SR.cs",
         "../../external/mono/mcs/class/corlib/System.Runtime.InteropServices/HandleRef.cs",
 
         "../../external/mono/external/referencesource/System/compmod/system/componentmodel/MaskedTextResultHint.cs"
-	],
+    ],
     "frameworks": {
         "aspnetcore50": {
             "dependencies": {

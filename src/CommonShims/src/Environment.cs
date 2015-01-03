@@ -35,9 +35,9 @@ namespace System.Windows.Forms
             DesktopDirectory
         }
 
-        public static string GetEnvironmentVariable(string v)
+        public static string GetEnvironmentVariable(string variable)
         {
-            return System.Environment.GetEnvironmentVariable(v);
+            return System.Environment.GetEnvironmentVariable(variable);
         }
 
         public static string[] GetCommandLineArgs()
@@ -45,9 +45,9 @@ namespace System.Windows.Forms
             throw new NotImplementedException();
         }
 
-        public static void Exit(int v)
+        public static void Exit(int exitCode)
         {
-            throw new NotImplementedException();
+            System.Environment.FailFast("exitCode:" + exitCode);
         }
     }
 
