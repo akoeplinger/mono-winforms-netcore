@@ -718,7 +718,6 @@
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/WebBrowserReadyState.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/WebBrowserRefreshOption.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/WebBrowserSiteBase.cs",
-        "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/WindowsFormsSection.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/WindowsFormsSynchronizationContext.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/X11Clipboard.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Windows.Forms/X11Dnd.cs",

@@ -33,5 +33,8 @@ namespace System.Security
         {
             return null;
         }
+        public void Demand ()
+        {
+        }
     }
 }
