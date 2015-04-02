@@ -9,3 +9,4 @@ artifacts/
 *.userprefs
 *DS_Store
 *.sln.ide
+.vs/
