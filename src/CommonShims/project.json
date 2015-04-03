@@ -1,8 +1,8 @@
 ﻿{
     "version": "1.0.0-*",
     "compilationOptions": { "define": [ "NET_2_0", "NET_4_0", "NET_4_5", "DISABLE_REMOTING" ] },
-    "code": [
-        "**/*.cs",
+    "compile": [ "src/*.cs"],
+    "compileFiles": [
 
         "../../external/mono/mcs/build/common/SR.cs",
         "../../external/mono/mcs/build/common/Locale.cs",
@@ -185,7 +185,7 @@
         "../../external/mono/external/referencesource/System/compmod/system/componentmodel/design/serialization/InstanceDescriptor.cs",
         ],
     "frameworks": {
-        "aspnetcore50": {
+        "dnxcore50": {
             "dependencies": {
                 "System.Runtime": "4.0.20-beta-*",
                 "System.IO": "4.0.10-beta-*",

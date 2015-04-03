@@ -1,10 +1,9 @@
 ﻿{
     "version": "1.0.0-*",
     "compilationOptions": { "define": [ "NET_2_0", "NET_4_0", "NET_4_5" ], "allowUnsafe": true },
-    "resources": "resources/**",
-    "code": [
-        "**/*.cs",
-
+    "resource": "resources/**",
+    "compile": [ "Shims/*.cs"],
+    "compileFiles": [
         "../../external/mono/mcs/build/common/MonoTODOAttribute.cs",
         "../../external/mono/mcs/build/common/Locale.cs",
 
@@ -879,8 +878,6 @@
         "../../external/mono/mcs/class/Mono.WebBrowser/Mono.WebBrowser/DOM/IWindow.cs",
         "../../external/mono/mcs/class/Mono.WebBrowser/Mono.WebBrowser/DOM/IWindowCollection.cs",
 
-
-        // modified
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Resources/ResXDataNode.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Resources/ResXDataNodeHandler.cs",
         "../../external/mono/mcs/class/Managed.Windows.Forms/System.Resources/ResXFileRef.cs",
@@ -955,7 +952,7 @@
         "../../external/mono/mcs/class/Mono.WebBrowser/Mono.WebBrowser/Manager.cs"
     ],
     "frameworks": {
-        "aspnetcore50": {
+        "dnxcore50": {
             "dependencies": {
                 "System.Drawing": "",
                 "System.Runtime": "4.0.20-beta-*",

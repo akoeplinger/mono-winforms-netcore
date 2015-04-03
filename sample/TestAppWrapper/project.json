@@ -3,10 +3,10 @@
     "commands": {
         "run": "run"
     },
-    "resources": "../TestApp/*.resx",
-    "code": "../TestApp/*.cs",
+    "resource": "../TestApp/*.resx",
+    "compile": "../TestApp/*.cs",
     "frameworks": {
-        "aspnetcore50": {
+        "dnxcore50": {
             "dependencies": {
                 "System.Drawing": "",
                 "System.Windows.Forms": "",
