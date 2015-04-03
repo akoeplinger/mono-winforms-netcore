@@ -14,6 +14,7 @@ namespace TestApp2
         public Form1 ()
         {
             InitializeComponent();
+            lblBitness.Text = IntPtr.Size == 4 ? "32-bit process" : "64-bit process";
         }
 
         private void button1_Click (object sender, EventArgs e)
