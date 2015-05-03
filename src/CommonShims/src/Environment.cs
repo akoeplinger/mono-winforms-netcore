@@ -53,7 +53,7 @@ namespace System.Windows.Forms
 
     public class OSVersion
     {
-        public PlatformID Platform { get { return PlatformID.Win32NT; } }
+        public PlatformID Platform { get { return PlatformID.Unix; } }
 
         public Version Version { get { return new Version(10, 0); } }
     }
