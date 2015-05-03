@@ -1,15 +1,15 @@
-﻿{
+{
     "version": "1.0.0-*",
     "commands": {
         "run": "run"
     },
-    "resource": "../TestApp/*.resx",
-    "compile": "../TestApp/*.cs",
+    "resource": "*.resx",
+    "compile": "*.cs",
     "frameworks": {
         "dnxcore50": {
             "dependencies": {
-                "System.Drawing": "",
-                "System.Windows.Forms": "",
+                "System.Drawing": "1.0.0-*",
+                "System.Windows.Forms": "1.0.0-*",
                 "System.Console": "4.0.0-beta-*"
             }
         }

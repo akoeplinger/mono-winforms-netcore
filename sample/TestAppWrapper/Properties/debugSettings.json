@@ -1,9 +1,0 @@
-{
-  "profiles": [
-    {
-      "name": "run",
-      "commandName": "run",
-      "sdkVersion": "kre-coreclr-win-x64.1.0.0-beta3"
-    }
-  ]
-}
