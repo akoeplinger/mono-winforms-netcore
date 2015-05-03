@@ -223,7 +223,7 @@
                 "System.Reflection.TypeExtensions": "4.0.0-beta-*",
                 "Microsoft.Win32.Primitives": "4.0.0-beta-*",
                 "System.Console": "4.0.0-beta-*",
-                "CommonShims": ""
+                "CommonShims": "1.0.0-*"
             }
         }
     }

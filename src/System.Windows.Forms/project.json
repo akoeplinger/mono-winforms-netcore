@@ -954,7 +954,7 @@
     "frameworks": {
         "dnxcore50": {
             "dependencies": {
-                "System.Drawing": "",
+                "System.Drawing": "1.0.0-*",
                 "System.Runtime": "4.0.20-beta-*",
                 "System.Xml.ReaderWriter": "4.0.10-beta-*",
                 "System.Xml.XmlDocument": "4.0.0-beta-*",
